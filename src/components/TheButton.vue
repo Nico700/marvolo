@@ -1,6 +1,6 @@
 <template>
-    <div class="button">
-        <router-link :to="'/' + label">{{ label }}</router-link>
+    <div class="button d-flex align-items-center">
+        <router-link class="pt-2" :to="'/' + label">{{ capitalize(label) }}</router-link>
     </div>
 </template>
 
@@ -10,7 +10,7 @@ export default {
     props : {
         label: String,
     },
-    filters: {
+    methods: {
         capitalize(value) {
             if (!value) return ''
             value = value.toString()
@@ -19,3 +19,7 @@ export default {
     }
 }
 </script>
+
+<style>
+.btn {background-color: #008CBA;}
+</style>

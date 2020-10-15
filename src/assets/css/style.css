@@ -5,8 +5,43 @@ Couleur 3: #296ff0 (Bleu)
 Couleur 4: #fd7381 (Rouge)
  */
 
-/* ACCUEIL */
+/* BARRE DE RECHERCHE */
+.thebar {
+  padding: 0;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+}
 
+.thebar:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.thebar input {
+  width: 90%;
+  padding: 10px;
+  font-size: 18px;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.thebar input:focus {
+  outline: none;
+}
+
+.ico_loupe {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border: 0;
+}
+
+.ico_loupe:active {
+  background-color: #42b983;
+}
+
+.ico_loupe:focus {
+  outline: none;
+}
 
 
 /* RESTE DE L'APPLI DE BASE */
