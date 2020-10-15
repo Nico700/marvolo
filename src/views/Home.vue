@@ -1,17 +1,29 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Message du composant HelloWorld" />
+    <img src="../assets/marvolo.png">
+    <TheBar class="thebarhome"/>
+    <AppResult />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import TheBar from "@/components/TheBar.vue";
+import AppResult from "@/components/AppResult.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    TheBar,
+    AppResult
   }
 };
 </script>
+
+<style>
+.thebarhome {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+</style>
