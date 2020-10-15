@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1>Resultats</h1>
+    <p>{{ datas }}</p>
   </div>
 </template>
 
@@ -10,9 +11,12 @@ const md5 = require('md5');
 
 export default {
   name: "Search",
+  props: {
+    search: String
+  },
   data() {
     return {
-      search: this.$props,
+      datas: null,
       url: "https://gateway.marvel.com:443/v1/public",
       apikey: process.env.VUE_APP_APIKEY_PUBLIC,
       apikeyPrivate: process.env.VUE_APP_APIKEY_PRIVATE,
@@ -21,23 +25,22 @@ export default {
           process.env.VUE_APP_APIKEY_PRIVATE +
           process.env.VUE_APP_APIKEY_PUBLIC
       ),
-      search_content: this.$refs.valeur_search
     };
   },
   methods: {
     getHeroes: function() {
-      console.log(this.search);
+      console.log(this.search)
       axios
-        .get(this.url + "/characters?nameStartsWith=sp&ts=1&apikey=" + this.apikey + "&hash=" + this.hash)
-        .then(function(response) {
-          console.log(response);
+        .get(this.url + "/characters?limit=100&orderBy=name&nameStartsWith=" + this.search + "&ts=1&apikey=" + this.apikey + "&hash=" + this.hash)
+        .then(response => {
+          this.datas = response.data.data;
         })
-        .catch(function(error) {
+        .catch((error) => {
           console.log(error);
         });
     }
   },
-  beforeMount() {
+  mounted() {
     this.getHeroes();
   }
 };
