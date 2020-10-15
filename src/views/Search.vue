@@ -1,11 +1,17 @@
 <template>
   <div class="home">
+    <div id="nav">
+      <TheHeader />
+    </div>
+
     <h1>Resultats</h1>
     <p>{{ datas }}</p>
   </div>
 </template>
 
 <script>
+import TheHeader from '../components/TheHeader.vue'
+
 const axios = require("axios");
 const md5 = require('md5');
 
