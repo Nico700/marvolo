@@ -2,7 +2,9 @@
     <div class="header">
         <div class="row align-items-center">
             <div class="col-2">
-                <img width="250" src="../assets/logo.png">
+                <router-link to="/">
+                    <img width="250" src="../assets/logo.png">
+                </router-link>
             </div>
             <div class="col-6 mt-2">
                 <TheBar/>
