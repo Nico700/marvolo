@@ -1,7 +1,7 @@
 <template>
   <div class="thebar">
-    <form action="/search" method="post">
-      <input type="text" name="valeur_search"/>
+    <form action="/search" @submit="submit" method="post">
+      <input type="text" name="valeur_search" />
       <button type="submit" class="ico_loupe">🔍</button>
     </form>
   </div>

@@ -1,0 +1,2718 @@
+{
+    "code": 200,
+    "status": "Ok",
+    "copyright": "© 2020 MARVEL",
+    "attributionText": "Data provided by Marvel. © 2020 MARVEL",
+    "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2020 MARVEL</a>",
+    "etag": "d47ba39d64cdae03e1e3455d49114d83a9df4de4",
+    "data": {
+        "offset": 0,
+        "limit": 20,
+        "total": 1660,
+        "count": 20,
+        "results": [
+            {
+                "id": 59551,
+                "digitalId": 0,
+                "title": "Spider-Man (2016) #6 (Anka Mighty Men Variant)",
+                "issueNumber": 6,
+                "variantDescription": "Anka Mighty Men Variant",
+                "description": null,
+                "modified": "2016-07-21T17:22:23-0400",
+                "isbn": "",
+                "upc": "75960608314500621",
+                "diamondCode": "",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/59551",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/59551/spider-man_2016_6_anka_mighty_men_variant/anka_mighty_men_variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/20508",
+                    "name": "Spider-Man (2016 - 2018)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/55700",
+                        "name": "Spider-Man (2016) #6"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2029-12-31T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2016-07-13T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/30/56f46483efc4f",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/59551/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11575",
+                            "name": "Kris Anka",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+                            "name": "Nick Lowe",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/59551/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/59551/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/129608",
+                            "name": "cover from Spider-Man (2016) #6 (ANKA MOP VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/129609",
+                            "name": "story from Spider-Man (2016) #6 (ANKA MOP VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/59551/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 75136,
+                "digitalId": 0,
+                "title": "Spider-Man (2019) #5",
+                "issueNumber": 5,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-01-25T09:10:28-0500",
+                "isbn": "",
+                "upc": "759606093541000511",
+                "diamondCode": "NOV190910",
+                "ean": "",
+                "issn": "2574-5352",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/75136",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/75136/spider-man_2019_5?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/27022",
+                    "name": "Spider-Man (2019 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-11-25T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-11-02T00:00:00-0500"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/00/5f3ee0d58298c",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/00/5f3ee0d58298c",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75136/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13984",
+                            "name": "Henry Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14057",
+                            "name": "J.J Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                            "name": "Vc Joe Caramagna",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/6170",
+                            "name": "Olivier Coipel",
+                            "role": "penciler (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+                            "name": "Nick Lowe",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9408",
+                            "name": "Sara Pichelli",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/501",
+                            "name": "Dave Stewart",
+                            "role": "colorist (cover)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75136/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75136/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/167111",
+                            "name": "cover from Special Spider (2029) #5",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/167112",
+                            "name": "story from Special Spider (2029) #5",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75136/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90112,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #6",
+                "issueNumber": 6,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-04-30T09:18:53-0400",
+                "isbn": "",
+                "upc": "75960609671800611",
+                "diamondCode": "SEP200623",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90112",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/90112/spider-woman_2020_6?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-11-18T00:00:00-0500"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-10-26T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/c0/5f4fafdadaf78",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/5/c0/5f4fafdadaf78",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90112/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12303",
+                            "name": "Jung-Geun Yoon",
+                            "role": "penciler (cover)"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90112/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90112/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/200927",
+                            "name": "cover from Spider-Woman (2020) #6",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/200928",
+                            "name": "story from Spider-Woman (2020) #6",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90112/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 82520,
+                "digitalId": 0,
+                "title": "Spider-Man Noir (2020) #5",
+                "issueNumber": 5,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-07-01T09:04:22-0400",
+                "isbn": "",
+                "upc": "75960609743200511",
+                "diamondCode": "AUG200649",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/82520",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/82520/spider-man_noir_2020_5?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/29329",
+                    "name": "Spider-Man Noir (2020)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-28T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-10-05T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/5f3ee0d75661f",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/c0/5f3ee0d75661f",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82520/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13558",
+                            "name": "Juan Ferreyra",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12457",
+                            "name": "Edward Devin Lewis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12703",
+                            "name": "Dave Rapoza",
+                            "role": "penciler (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12948",
+                            "name": "Margaret Stohl",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82520/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82520/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/182800",
+                            "name": "cover from Spider-Man Noir (2020) #5",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/182801",
+                            "name": "story from Spider-Man Noir (2020) #5",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82520/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90688,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #5 (Variant)",
+                "issueNumber": 5,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-08-02T09:05:17-0400",
+                "isbn": "",
+                "upc": "75960609671800541",
+                "diamondCode": "AUG200656",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90688",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/90688/spider-woman_2020_5_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90687",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90686",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/78713",
+                        "name": "Spider-Woman (2020) #5"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/91473",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-21T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-09-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/5f3ee171e301e",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/00/5f3ee171e301e",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90688/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13413",
+                            "name": "Mattia De Iulis",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90688/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90688/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/202437",
+                            "name": "cover from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/202438",
+                            "name": "story from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90688/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90686,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #5 (Variant)",
+                "issueNumber": 5,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-08-02T09:05:15-0400",
+                "isbn": "",
+                "upc": "75960609671800521",
+                "diamondCode": "AUG200654",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90686",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/90686/spider-woman_2020_5_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90688",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90687",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/78713",
+                        "name": "Spider-Woman (2020) #5"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/91473",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-21T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-09-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/a0/5f3ee17b39eea",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/a0/5f3ee17b39eea",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90686/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13413",
+                            "name": "Mattia De Iulis",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
+                            "name": "Emily Newcomen",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                            "name": "Alex Ross",
+                            "role": "painter (cover)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90686/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90686/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/202433",
+                            "name": "cover from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/202434",
+                            "name": "story from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90686/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 91473,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #5 (Variant)",
+                "issueNumber": 5,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-08-02T09:05:20-0400",
+                "isbn": "",
+                "upc": "75960609671800516",
+                "diamondCode": "AUG200657",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/91473",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/91473/spider-woman_2020_5_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90687",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90686",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/78713",
+                        "name": "Spider-Woman (2020) #5"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90688",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-21T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-09-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/70/5f3ee17b9a136",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/70/5f3ee17b9a136",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/91473/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13413",
+                            "name": "Mattia De Iulis",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5933",
+                            "name": "Patrick Gleason",
+                            "role": "inker (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/91473/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/91473/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/204028",
+                            "name": "cover from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/204029",
+                            "name": "story from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/91473/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90687,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #5 (Variant)",
+                "issueNumber": 5,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-08-02T09:05:16-0400",
+                "isbn": "",
+                "upc": "75960609671800531",
+                "diamondCode": "AUG200655",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90687",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/90687/spider-woman_2020_5_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90688",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90686",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/78713",
+                        "name": "Spider-Woman (2020) #5"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/91473",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-21T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-09-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/5f3ee171d52e1",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/30/5f3ee171d52e1",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90687/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13413",
+                            "name": "Mattia De Iulis",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90687/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90687/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/202435",
+                            "name": "cover from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/202436",
+                            "name": "story from Spider-Woman (2020) #5 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90687/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 78713,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #5",
+                "issueNumber": 5,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-07-01T09:04:23-0400",
+                "isbn": "",
+                "upc": "75960609671800511",
+                "diamondCode": "AUG200650",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/78713",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/78713/spider-woman_2020_5?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90687",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90686",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/91473",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90688",
+                        "name": "Spider-Woman (2020) #5 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-21T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-09-28T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/5f3ee16e47bfd",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/5f3ee16e47bfd",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78713/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13413",
+                            "name": "Mattia De Iulis",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12303",
+                            "name": "Jung-Geun Yoon",
+                            "role": "penciler (cover)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78713/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78713/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/174448",
+                            "name": "cover from Spider-Woman (2020) #5",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/174449",
+                            "name": "story from Spider-Woman (2020) #5",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78713/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90018,
+                "digitalId": 0,
+                "title": "Spider-Man: The Road To Venom (Trade Paperback)",
+                "issueNumber": 0,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-10-01T17:08:52-0400",
+                "isbn": "978-1-302-92696-0",
+                "upc": "",
+                "diamondCode": "JUL200699",
+                "ean": "9781302 926960 53499",
+                "issn": "",
+                "format": "Trade Paperback",
+                "pageCount": 368,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90018",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/collection/90018/spider-man_the_road_to_venom_trade_paperback?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http://comicstore.marvel.com/Spider-Man-The-Road-To-Venom-0/digital-comic/55443?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/30997",
+                    "name": "Spider-Man: The Road To Venom (2020)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-07T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-10T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 34.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/90/5f762a6cbfc6c",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/f/90/5f762a6cbfc6c",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 37,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90018/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/300",
+                            "name": "Kyle Baker",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1251",
+                            "name": "Brett Breeding",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/105",
+                            "name": "Sal Buscema",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1523",
+                            "name": "Vince Colletta",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/689",
+                            "name": "Derek Fridolfs",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
+                            "name": "Scott Hanna",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2261",
+                            "name": "Chris Ivy",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1216",
+                            "name": "Rich Buckler",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5764",
+                            "name": "Ron Frenz",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2263",
+                            "name": "James Fry",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13424",
+                            "name": "Gregory Ben Larocque",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                            "name": "Vc Joe Caramagna",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1887",
+                            "name": "Janice Chiang",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13261",
+                            "name": "Phil Felix",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/121",
+                            "name": "Peter David",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9565",
+                            "name": "Tom Defalco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/6901",
+                            "name": "Len Kaminski",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13367",
+                            "name": "Avalon Ian Hannin",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4266",
+                            "name": "Ian Hannin",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2069",
+                            "name": "Janet Jackson",
+                            "role": "colorist"
+                        }
+                    ],
+                    "returned": 20
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90018/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90018/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/200730",
+                            "name": "cover from SPIDER-MAN: THE ROAD TO VENOM TPB (2020) #1",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/200731",
+                            "name": "story from SPIDER-MAN: THE ROAD TO VENOM TPB (2020) #1",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90018/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 78358,
+                "digitalId": 0,
+                "title": "Spider-Man: Marvels Snapshots (2020) #1",
+                "issueNumber": 1,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-09-29T15:21:02-0400",
+                "isbn": "",
+                "upc": "759606096061000111",
+                "diamondCode": "MAR200970",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 40,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/78358",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/78358/spider-man_marvels_snapshots_2020_1?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http://comicstore.marvel.com/Spider-Man-Marvels-Snapshots-1/digital-comic/54924?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/27945",
+                    "name": "Spider-Man: Marvels Snapshots (2020)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-10-07T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-09-14T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 4.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/70/5f735c4105ffc",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/70/5f735c4105ffc",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78358/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11482",
+                            "name": "Jesus Aburtov",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1871",
+                            "name": "Ken Bruzenak",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/808",
+                            "name": "Howard Chaykin",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/63",
+                            "name": "Alex Ross",
+                            "role": "painter (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13027",
+                            "name": "Darren Shan",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78358/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+                            "name": "Spider-Man"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78358/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/173732",
+                            "name": "cover from Marvels Snapshots: TBD C (2029) #1",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/173733",
+                            "name": "story from Marvels Snapshots: TBD C (2029) #1",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78358/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 84506,
+                "digitalId": 0,
+                "title": "Spider-Man Loves Mary Jane: The Secret Thing (Trade Paperback)",
+                "issueNumber": 0,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-09-28T15:48:02-0400",
+                "isbn": "978-1-302-92537-6",
+                "upc": "",
+                "diamondCode": "JUL200704",
+                "ean": "9781302 925376 51299",
+                "issn": "",
+                "format": "Trade Paperback",
+                "pageCount": 288,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/84506",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/collection/84506/spider-man_loves_mary_jane_the_secret_thing_trade_paperback?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/29783",
+                    "name": "Spider-Man Loves Mary Jane: The Secret Thing (2020)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-30T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-10T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 12.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/90/5f722dc32eb69",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/90/5f722dc32eb69",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84506/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/748",
+                            "name": "David Hahn",
+                            "role": "penciller"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8260",
+                            "name": "Craig Rousseau",
+                            "role": "penciller"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9429",
+                            "name": "Sean Mckeever",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/256",
+                            "name": "Terry Moore",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/495",
+                            "name": "Takeshi Miyazawa",
+                            "role": "penciller (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                            "name": "Jeff Youngquist",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84506/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84506/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/186811",
+                            "name": "cover from SPIDER-MAN LOVES MARY JANE: THE SECRET THING GN-TPB (2020) #1",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/186812",
+                            "name": "story from SPIDER-MAN LOVES MARY JANE: THE SECRET THING GN-TPB (2020) #1",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84506/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 82519,
+                "digitalId": 0,
+                "title": "Spider-Man Noir (2020) #4",
+                "issueNumber": 4,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-02-27T09:05:30-0500",
+                "isbn": "",
+                "upc": "75960609743200411",
+                "diamondCode": "APR200977",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/82519",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/82519/spider-man_noir_2020_4?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http://comicstore.marvel.com/Spider-Man-Noir-4/digital-comic/55118?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/29329",
+                    "name": "Spider-Man Noir (2020)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90262",
+                        "name": "Spider-Man Noir (2020) #4 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/5f6510b2c6d52",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/00/5f6510b2c6d52",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82519/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13558",
+                            "name": "Juan Ferreyra",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12457",
+                            "name": "Edward Devin Lewis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13680",
+                            "name": "Patrick Okeefe",
+                            "role": "painter (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12703",
+                            "name": "Dave Rapoza",
+                            "role": "penciler (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12948",
+                            "name": "Margaret Stohl",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82519/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1012295",
+                            "name": "Spider-Man (Noir)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82519/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/182798",
+                            "name": "cover from Spider-Man Noir (2020) #4",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/182799",
+                            "name": "story from Spider-Man Noir (2020) #4",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/82519/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 78712,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #4",
+                "issueNumber": 4,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-02-27T09:05:36-0500",
+                "isbn": "",
+                "upc": "75960609671800411",
+                "diamondCode": "APR200981",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/78712",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/78712/spider-woman_2020_4?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http://comicstore.marvel.com/Spider-Woman-4/digital-comic/55119?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/90263",
+                        "name": "Spider-Woman (2020) #4 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5f6510b2c6891",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/3/70/5f6510b2c6891",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 6,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78712/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12303",
+                            "name": "Jung-Geun Yoon",
+                            "role": "painter (cover)"
+                        }
+                    ],
+                    "returned": 6
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78712/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009608",
+                            "name": "Spider-Woman (Jessica Drew)"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78712/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/174446",
+                            "name": "cover from Spider-Woman (2020) #4",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/174447",
+                            "name": "story from Spider-Woman (2020) #4",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/78712/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90262,
+                "digitalId": 0,
+                "title": "Spider-Man Noir (2020) #4 (Variant)",
+                "issueNumber": 4,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-06-09T09:11:20-0400",
+                "isbn": "",
+                "upc": "75960609743200421",
+                "diamondCode": "APR200978",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90262",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/90262/spider-man_noir_2020_4_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/29329",
+                    "name": "Spider-Man Noir (2020)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/82519",
+                        "name": "Spider-Man Noir (2020) #4"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/5f6b4f12ae571",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/9/40/5f6b4f12ae571",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 5,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90262/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13558",
+                            "name": "Juan Ferreyra",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12457",
+                            "name": "Edward Devin Lewis",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11354",
+                            "name": "Declan Shalvey",
+                            "role": "colorist (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12948",
+                            "name": "Margaret Stohl",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 5
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90262/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90262/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/201572",
+                            "name": "cover from Spider-Man Noir (2020) #4 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/201573",
+                            "name": "story from Spider-Man Noir (2020) #4 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90262/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 83316,
+                "digitalId": 0,
+                "title": "Spider-Man (2019) #4 (Variant)",
+                "issueNumber": 4,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-07-09T09:03:26-0400",
+                "isbn": "",
+                "upc": "759606093541000431",
+                "diamondCode": "OCT190997",
+                "ean": "",
+                "issn": "2574-5352",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/83316",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/83316/spider-man_2019_4_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/27022",
+                    "name": "Spider-Man (2019 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/75135",
+                        "name": "Spider-Man (2019) #4"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/83315",
+                        "name": "Spider-Man (2019) #4 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/10/5f6b4f12ae2a7",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/10/5f6b4f12ae2a7",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83316/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13984",
+                            "name": "Henry Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14057",
+                            "name": "J.J Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                            "name": "Vc Joe Caramagna",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13174",
+                            "name": "Elisabetta D'AMICO",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+                            "name": "Nick Lowe",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9408",
+                            "name": "Sara Pichelli",
+                            "role": "penciler (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/501",
+                            "name": "Dave Stewart",
+                            "role": "colorist (cover)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83316/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83316/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/184402",
+                            "name": "cover from Spider-Man (2019) #4 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/184403",
+                            "name": "story from Spider-Man (2019) #4 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83316/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 90263,
+                "digitalId": 0,
+                "title": "Spider-Woman (2020) #4 (Variant)",
+                "issueNumber": 4,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-04-30T09:18:45-0400",
+                "isbn": "",
+                "upc": "75960609671800421",
+                "diamondCode": "APR200982",
+                "ean": "",
+                "issn": "",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/90263",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/90263/spider-woman_2020_4_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/28048",
+                    "name": "Spider-Woman (2020 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/78712",
+                        "name": "Spider-Woman (2020) #4"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/5f6b4f13d7245",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/80/5f6b4f13d7245",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 7,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90263/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8504",
+                            "name": "Frank D'ARMATA",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
+                            "name": "Vc Travis Lanham",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13125",
+                            "name": "Karla Pacheco",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/7909",
+                            "name": "Pere Perez",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11921",
+                            "name": "Jacob Thomas",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12832",
+                            "name": "Elizabeth Torque",
+                            "role": "penciler (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10279",
+                            "name": "Matthew Wilson",
+                            "role": "colorist (cover)"
+                        }
+                    ],
+                    "returned": 7
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90263/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90263/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/201574",
+                            "name": "cover from Spider-Woman (2020) #4 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/201575",
+                            "name": "story from Spider-Woman (2020) #4 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/90263/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 84509,
+                "digitalId": 0,
+                "title": "SPIDER-MAN: THE GAUNTLET - THE COMPLETE COLLECTION VOL. 2 TPB (Trade Paperback)",
+                "issueNumber": 2,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2020-03-04T09:08:30-0500",
+                "isbn": "978-1-302-92515-4",
+                "upc": "",
+                "diamondCode": "MAR201108",
+                "ean": "9781302 925154 54499",
+                "issn": "",
+                "format": "Trade Paperback",
+                "pageCount": 504,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/84509",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/collection/84509/spider-man_the_gauntlet_-_the_complete_collection_vol_2_tpb_trade_paperback?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/29786",
+                    "name": "SPIDER-MAN: THE GAUNTLET - THE COMPLETE COLLECTION VOL. 2 TPB (2020)"
+                },
+                "variants": [],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-07-20T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 44.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/5f691212d9a7d",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/5f691212d9a7d",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84509/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
+                            "name": "Jeff Youngquist",
+                            "role": "editor"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84509/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84509/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/186817",
+                            "name": "cover from SPIDER-MAN: THE GAUNTLET - THE COMPLETE COLLECTION VOL. 2 TPB (2020) #2",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/186818",
+                            "name": "story from SPIDER-MAN: THE GAUNTLET - THE COMPLETE COLLECTION VOL. 2 TPB (2020) #2",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/84509/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 75135,
+                "digitalId": 0,
+                "title": "Spider-Man (2019) #4",
+                "issueNumber": 4,
+                "variantDescription": "",
+                "description": null,
+                "modified": "2019-09-11T16:33:05-0400",
+                "isbn": "",
+                "upc": "759606093541000411",
+                "diamondCode": "OCT190995",
+                "ean": "",
+                "issn": "2574-5352",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/75135",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/75135/spider-man_2019_4?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    },
+                    {
+                        "type": "purchase",
+                        "url": "http://comicstore.marvel.com/Spider-Man-4/digital-comic/53287?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/27022",
+                    "name": "Spider-Man (2019 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/83315",
+                        "name": "Spider-Man (2019) #4 (Variant)"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/83316",
+                        "name": "Spider-Man (2019) #4 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/5f6510b2c692c",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/5f6510b2c692c",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 8,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75135/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13984",
+                            "name": "Henry Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14057",
+                            "name": "J.J Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                            "name": "Vc Joe Caramagna",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/6170",
+                            "name": "Olivier Coipel",
+                            "role": "penciler (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13174",
+                            "name": "Elisabetta D'AMICO",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9408",
+                            "name": "Sara Pichelli",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
+                            "name": "Nick Lowe",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/501",
+                            "name": "Dave Stewart",
+                            "role": "colorist (cover)"
+                        }
+                    ],
+                    "returned": 8
+                },
+                "characters": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75135/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
+                            "name": "Spider-Man"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75135/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/167109",
+                            "name": "cover from Special Spider (2029) #4",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/167110",
+                            "name": "story from Special Spider (2029) #4",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/75135/events",
+                    "items": [],
+                    "returned": 0
+                }
+            },
+            {
+                "id": 83315,
+                "digitalId": 0,
+                "title": "Spider-Man (2019) #4 (Variant)",
+                "issueNumber": 4,
+                "variantDescription": "Variant",
+                "description": null,
+                "modified": "2020-07-09T09:03:24-0400",
+                "isbn": "",
+                "upc": "759606093541000421",
+                "diamondCode": "OCT190996",
+                "ean": "",
+                "issn": "2574-5352",
+                "format": "Comic",
+                "pageCount": 32,
+                "textObjects": [],
+                "resourceURI": "http://gateway.marvel.com/v1/public/comics/83315",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/issue/83315/spider-man_2019_4_variant/variant?utm_campaign=apiRef&utm_source=94bc8fe9dd8c4bda1cd95a95d08f7273"
+                    }
+                ],
+                "series": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/27022",
+                    "name": "Spider-Man (2019 - Present)"
+                },
+                "variants": [
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/75135",
+                        "name": "Spider-Man (2019) #4"
+                    },
+                    {
+                        "resourceURI": "http://gateway.marvel.com/v1/public/comics/83316",
+                        "name": "Spider-Man (2019) #4 (Variant)"
+                    }
+                ],
+                "collections": [],
+                "collectedIssues": [],
+                "dates": [
+                    {
+                        "type": "onsaleDate",
+                        "date": "2020-09-23T00:00:00-0400"
+                    },
+                    {
+                        "type": "focDate",
+                        "date": "2020-08-31T00:00:00-0400"
+                    }
+                ],
+                "prices": [
+                    {
+                        "type": "printPrice",
+                        "price": 3.99
+                    }
+                ],
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/5f6b4f0dde613",
+                    "extension": "jpg"
+                },
+                "images": [
+                    {
+                        "path": "http://i.annihil.us/u/prod/marvel/i/mg/c/50/5f6b4f0dde613",
+                        "extension": "jpg"
+                    }
+                ],
+                "creators": {
+                    "available": 9,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83315/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13984",
+                            "name": "Henry Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14057",
+                            "name": "J.J Abrams",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
+                            "name": "Vc Joe Caramagna",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13021",
+                            "name": "David Curiel",
+                            "role": "colorist (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13174",
+                            "name": "Elisabetta D'AMICO",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9408",
+                            "name": "Sara Pichelli",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
+                            "name": "Emily Newcomen",
+                            "role": "editor"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12999",
+                            "name": "Will Sliney",
+                            "role": "inker (cover)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/501",
+                            "name": "Dave Stewart",
+                            "role": "colorist"
+                        }
+                    ],
+                    "returned": 9
+                },
+                "characters": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83315/characters",
+                    "items": [],
+                    "returned": 0
+                },
+                "stories": {
+                    "available": 2,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83315/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/184400",
+                            "name": "cover from Spider-Man (2019) #4 (VARIANT)",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/184401",
+                            "name": "story from Spider-Man (2019) #4 (VARIANT)",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 2
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/comics/83315/events",
+                    "items": [],
+                    "returned": 0
+                }
+            }
+        ]
+    }
+}
