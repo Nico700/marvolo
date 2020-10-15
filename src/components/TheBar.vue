@@ -9,6 +9,22 @@
 
 <script>
 export default {
-  name: "TheBar"
+  name: "TheBar",
+  data: function() {
+    return {
+      value: null
+    }
+  },
+  methods:{
+    submit: function(e){
+      e.preventDefault()
+      this.$router.push({
+        name: 'Search',
+        props:{
+          search: this.value
+        }
+      })
+    }
+  }
 };
 </script>

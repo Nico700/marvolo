@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import Comic from "../views/Comic.vue";
+import Search from "../views/Search.vue";
 
 const routes = [
   {
@@ -12,6 +13,12 @@ const routes = [
     path: "/comic",
     name: "Comic",
     component: Comic
+  },
+  {
+    path: "/search",
+    name: "Search",
+    component: Search,
+    props: true
   }
 ];
 
