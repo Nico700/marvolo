@@ -1,5 +1,9 @@
 <template>
     <div class="container-fluid single-result">
+        <div id="nav">
+            <TheHeader />
+        </div>
+
         <div class="d-flex justify-content-around">
             <div class="col-6">
                 <img class="rounded-circle" :src="hero.thumbnail.path + '.' + hero.thumbnail.extension" alt="John" style="width:25%">
@@ -19,8 +23,13 @@
 
 <script>
 import FakeHero from '../../data.json'
+import TheHeader from '../components/TheHeader'
+
 export default {
     name: 'TheHero',
+    components: {
+        TheHeader
+    },
     data: function(){
         return {
             hero: FakeHero.data.results[0]

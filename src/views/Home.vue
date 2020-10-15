@@ -16,14 +16,6 @@ export default {
   components: {
     TheBar,
     AppResult
-  },
-  data() {
-    return {
-      name: "test"
-    };
-  },
-  methods: {
-      
   }
 };
 </script>

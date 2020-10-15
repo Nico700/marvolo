@@ -11,8 +11,8 @@
             </div>
             <div class="col-4 d-flex justify-content-around align-items-center">
                 <TheButton label="fakeHeroResult"/>
-                <TheButton label="heroes"/>
-                <TheButton label="comics"/>
+                <TheButton label="Heroe"/>
+                <TheButton label="Comic"/>
             </div>
         </div>
     </div>

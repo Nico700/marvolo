@@ -1,15 +1,24 @@
 <template>
   <div class="home">
+    <div id="nav">
+      <TheHeader />
+    </div>
+
     <h1>Resultats</h1>
   </div>
 </template>
 
 <script>
+import TheHeader from '../components/TheHeader.vue'
+
 const axios = require("axios");
 const md5 = require('md5');
 
 export default {
   name: "Search",
+  components: {
+    TheHeader
+  },
   data() {
     return {
       search: this.$props,
