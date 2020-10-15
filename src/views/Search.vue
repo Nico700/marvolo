@@ -5,18 +5,27 @@
     </div>
 
     <h1>Resultats</h1>
+    <!-- <AppResult v-for="data in datas" :key="data.id">
+      {{  }}
+    </AppResult> -->
     <p>{{ datas }}</p>
   </div>
 </template>
 
 <script>
 import TheHeader from '../components/TheHeader.vue'
+import AppResult from '../components/AppResult.vue'
 
 const axios = require("axios");
 const md5 = require('md5');
 
 export default {
   name: "Search",
+  components: {
+    TheHeader,
+    // eslint-disable-next-line vue/no-unused-components
+    AppResult
+  },
   props: {
     search: String
   },
