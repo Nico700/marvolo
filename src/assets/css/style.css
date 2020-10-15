@@ -7,6 +7,7 @@ Couleur 4: #fd7381 (Rouge)
 
 /* BARRE DE RECHERCHE */
 .thebar {
+  padding: 0;
   border-radius: 100px;
   border: 1px solid #dfe1e5;
 }
@@ -28,7 +29,48 @@ Couleur 4: #fd7381 (Rouge)
 }
 
 .ico_loupe {
-  width: 5%;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border: 0;
+}
+
+.ico_loupe:active {
+  background-color: #42b983;
+}
+
+.ico_loupe:focus {
+  outline: none;
+}
+
+/* RESULTAT RECHERCHE PRINCIPALE */
+.result {
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.result p {
+  margin: 0;
+}
+
+.resultModel {
+  font-size: 14px; 
+}
+
+.resultTitle {
+  font-size: 20px;
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.resultTitle:hover {
+  text-decoration: underline;
+}
+
+.resultDesc {
+  font-size: 14px;
 }
 
 

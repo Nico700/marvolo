@@ -1,7 +1,9 @@
 <template>
   <div class="thebar">
-    <input type="text"/>
-    <span class="ico_loupe">🔍</span>
+    <form action="/search" method="post">
+      <input type="text" name="valeur_search"/>
+      <button type="submit" class="ico_loupe">🔍</button>
+    </form>
   </div>
 </template>
 
