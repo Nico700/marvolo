@@ -1,6 +1,6 @@
 <!--  eslint-disable prettier/prettier -->
 <template>
-    <div v-if="hero"  class="container-fluid single-result">
+    <div v-if="hero" class="container-fluid single-result">
         <div id="nav">
             <TheHeader />
         </div>
@@ -56,11 +56,10 @@ export default {
             axios
                 .get(this.url + "/characters/" + characterId + "?apikey=" + this.apikey + "&hash=" + this.hash)
                 .then(response => {
-                    console.log(response.data.data.results[0])
                     this.hero = response.data.data.results[0]
                 })
                 .catch((error) => {
-                console.log(error.response);
+                    console.log(error.response);
                 });
         }
     },
