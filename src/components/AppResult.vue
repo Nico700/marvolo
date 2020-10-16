@@ -1,9 +1,20 @@
 <template>
   <div class="result">
     <p class="resultModel">Héros</p>
-    <a class="resultTitle" href="/heros/">{{ data.name }}</a>
+    <a class="resultTitle" :href="'/characters/' + data.id" >{{ data.name }}</a>
     <p class="resultDesc">
       {{ hasDescription(data.description) }}
+
+      <table>
+        <tr>
+          <td><a class="resultTitle" :href="'/stories/' + data.id">Stories</a></td>
+          <td><a class="resultTitle" :href="'/comics/' + data.id">Comics</a></td>
+        </tr>
+        <tr>
+          <td><a class="resultTitle" :href="'/series/' + data.id">Series</a></td>
+          <td><a class="resultTitle" :href="'/events/' + data.id">Events</a></td>
+        </tr>
+      </table>
     </p>
   </div>
 </template>
@@ -17,7 +28,7 @@ export default {
   methods: {
     hasDescription(desc){
       if (desc === "") {
-        desc = "Désolé, cette recherche ne possède aucune description.";
+        desc = "Sorry, this search has no description.";
       }
       return desc;
     }
