@@ -23,6 +23,7 @@
 <script>
 import TheButton from "../components/TheButton.vue";
 import TheBar from "../components/TheBar.vue";
+
 export default {
   name: "Header",
   data() {

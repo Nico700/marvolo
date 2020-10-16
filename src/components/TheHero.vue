@@ -1,22 +1,24 @@
 <!--  eslint-disable prettier/prettier -->
 <template>
-    <div v-if="hero"  class="container-fluid single-result">
+    <div v-if="hero" class="container-fluid single-result">
         <div id="nav">
             <TheHeader />
         </div>
 
         <div class="d-flex justify-content-around">
             <div class="col-6">
-                <img class="rounded-circle" :src="hero.thumbnail.path + '.' + hero.thumbnail.extension" alt="Hero picture" style="width:25%">
+                <img class="!rounded-circle" :src="hero.thumbnail.path + '.' + hero.thumbnail.extension" alt="Hero picture" style="width:25%">
                 <h1 class="my-3">{{ hero.name }}</h1>
                 <p>{{ hero.description }}</p>
             </div>
             <div class="col-6">
-                <ul class="list-group">
+                <h3 class="text-center">Comics related</h3>
+                <ul v-if="hero.comics.items.length > 0" class="list-group">
                     <li class="list-group-item" v-for="(comic, index) in hero.comics.items" :key="index">
                         <router-link class="pt-2" :to="'/comics/' + truncComicId(comic.resourceURI) ">{{ comic.name }}</router-link>
                     </li>
                 </ul>
+                <h4 v-else class="my-5">No comics found for <b>{{ hero.name }}</b></h4>
             </div>
         </div>
     </div>
@@ -86,6 +88,7 @@ export default {
   max-height: 500px;
   margin-bottom: 10px;
   overflow: scroll;
+  overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 </style>
