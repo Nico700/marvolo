@@ -41,10 +41,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-=======
-//import FakeComic from "../../comic.json";
->>>>>>> 9cc590eff41c31faf3a62fa8fd37557bc4a66b72
 const axios = require("axios");
 const md5 = require('md5');
 
