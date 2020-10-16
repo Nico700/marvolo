@@ -13,7 +13,7 @@
             </div>
             <div class="col-6">
                 <h3 class="text-center">Comics related</h3>
-                <ul v-if="hero.comics.length > 0" class="list-group">
+                <ul v-if="hero.comics.items.length > 0" class="list-group">
                     <li class="list-group-item" v-for="(comic, index) in hero.comics.items" :key="index">
                         <router-link class="pt-2" :to="'/comics/' + truncComicId(comic.resourceURI) ">{{ comic.name }}</router-link>
                     </li>
