@@ -4,7 +4,7 @@
       <TheHeader />
     </div>
 
-    <AppResult v-for="data in heros" :key="data.id" :data="data"> </AppResult>
+    <AppResult v-for="data in heros" :key="data.id" :data="data" :type="this.type"> </AppResult>
 
   </div>
 </template>
@@ -22,11 +22,10 @@ export default {
     TheHeader,
     AppResult
   },
-  props: {
-    search: String
-  },
   data() {
     return {
+      search: this.$route.query.q,
+      type: this.$route.query.type,
       heros: null,
       url: "https://gateway.marvel.com:443/v1/public",
       apikey: process.env.VUE_APP_APIKEY_PUBLIC,
@@ -41,7 +40,17 @@ export default {
   methods: {
     getHeroes: function() {
       axios
-        .get(this.url + "/characters?limit=100&orderBy=name&nameStartsWith=" + this.search + "&ts=1&apikey=" + this.apikey + "&hash=" + this.hash)
+        .get(
+          this.url +
+            "/" +
+            this.type +
+            "?limit=100&orderBy=name&nameStartsWith=" +
+            encodeURIComponent(this.search) +
+            "&ts=1&apikey=" +
+            this.apikey +
+            "&hash=" +
+            this.hash
+        )
         .then(response => {
           this.heros = response.data.data.results;
         })

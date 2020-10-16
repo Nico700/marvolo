@@ -1,7 +1,8 @@
 <template>
   <div class="result">
-    <p class="resultModel">Héros</p>
-    <a class="resultTitle" :href="'/characters/' + data.id" >{{ data.name }}</a>
+    <p class="resultModel">{{ type }}</p>
+    <!--<a class="resultTitle" :href="'/characters/' + data.id" >{{ data.name }}</a>-->
+    <router-link class="resultTitle" :to="{name: 'Character', params: {id:data.id }}">{{ data.name}}</router-link>
     <p class="resultDesc">
       {{ hasDescription(data.description) }}
 

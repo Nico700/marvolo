@@ -17,7 +17,8 @@ const routes = [
   {
     path: "/characters/:id",
     name: "Character",
-    component: TheHero
+    component: TheHero,
+    props: true
   },
   {
     path: "/comics",
