@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import TheHero from '../components/TheHero.vue'
 import Comic from "../views/Comic.vue";
 import Search from "../views/Search.vue";
+import TheCharacterSeries from '../components/TheCharacterSeries.vue'
 
 const routes = [
   {
@@ -13,6 +14,12 @@ const routes = [
   {
     path: "/characters",
     name: "Characters"
+  },
+  {
+    path: "/characters/:id/series",
+    name: "CharacterSeries",
+    component: TheCharacterSeries,
+    props: true
   },
   {
     path: "/characters/:id",
