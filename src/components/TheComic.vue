@@ -11,13 +11,40 @@
 </template>
 
 <script>
-import FakeComic from "../../comic.json";
+const axios = require("axios");
+const md5 = require('md5');
+
 export default {
   name: "TheComic",
   data: function() {
     return {
-      comic: FakeComic.data.results[0]
+      comic: null,
+      url: "https://gateway.marvel.com:443/v1/public",
+      apikey: process.env.VUE_APP_APIKEY_PUBLIC,
+      apikeyPrivate: process.env.VUE_APP_APIKEY_PRIVATE,
+      hash: md5(
+        "1" +
+          process.env.VUE_APP_APIKEY_PRIVATE +
+          process.env.VUE_APP_APIKEY_PUBLIC
+      )
     };
+  },
+  methods: {
+    getComic: function() {
+      let comicId = this.$route.params.id
+      axios
+        .get(this.url + "/comics/" + comicId + "?&apikey=" + this.apikey + "&hash=" + this.hash)
+        .then(response => {
+          console.log(response)
+          this.comic = response.data
+        })
+        .catch((error) => {
+          console.log(error);
+        });
+    }
+  },
+  mounted() {
+    this.getComic();
   }
 };
 </script>

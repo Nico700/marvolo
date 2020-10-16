@@ -25,6 +25,11 @@ const routes = [
     component: Comic
   },
   {
+    path: "/comics/:id",
+    name: "Comic",
+    component: Comic
+  },
+  {
     path: "/search",
     name: "Search",
     component: Search,
