@@ -1,12 +1,12 @@
 <template>
-    <div class="container-fluid single-result">
+    <div v-if="hero"  class="container-fluid single-result">
         <div id="nav">
             <TheHeader />
         </div>
 
         <div class="d-flex justify-content-around">
             <div class="col-6">
-                <img class="rounded-circle" :src="hero.thumbnail.path + '.' + hero.thumbnail.extension" alt="John" style="width:25%">
+                <img class="rounded-circle" :src="hero.thumbnail.path + '.' + hero.thumbnail.extension" alt="Hero picture" style="width:25%">
                 <h1 class="my-3">{{ hero.name }}</h1>
                 <p>{{ hero.description }}</p>
             </div>
@@ -22,8 +22,9 @@
 </template>
 
 <script>
-import FakeHero from '../../data.json'
 import TheHeader from '../components/TheHeader'
+const axios = require("axios");
+const md5 = require('md5');
 
 export default {
     name: 'TheHero',
@@ -32,7 +33,15 @@ export default {
     },
     data: function(){
         return {
-            hero: FakeHero.data.results[0]
+            hero: null,
+            url: "https://gateway.marvel.com:443/v1/public",
+            apikey: process.env.VUE_APP_APIKEY_PUBLIC,
+            apikeyPrivate: process.env.VUE_APP_APIKEY_PRIVATE,
+            hash: md5(
+                "1" +
+                process.env.VUE_APP_APIKEY_PRIVATE +
+                process.env.VUE_APP_APIKEY_PUBLIC
+            )
         }
     },
     methods : {
@@ -40,7 +49,22 @@ export default {
             let parts = uri.split('/');
             let lastSegment = parts.pop() || parts.pop() 
             return lastSegment
+        },
+        getHero() {
+            let characterId = this.$route.params.id
+            axios
+                .get(this.url + "/characters/" + characterId + "?apikey=" + this.apikey + "&hash=" + this.hash)
+                .then(response => {
+                    console.log(response.data.data.results[0])
+                    this.hero = response.data.data.results[0]
+                })
+                .catch((error) => {
+                console.log(error.response);
+                });
         }
+    },
+    created() {
+        this.getHero();
     }
 }
 </script>

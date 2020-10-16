@@ -15,13 +15,13 @@ const routes = [
     name: "Characters"
   },
   {
-    path: "/fakeHeroResult",
-    name: "Fake Result",
+    path: "/characters/:id",
+    name: "Character",
     component: TheHero
   },
   {
-    path: "/comic",
-    name: "Comic",
+    path: "/comics",
+    name: "Comics",
     component: Comic
   },
   {
