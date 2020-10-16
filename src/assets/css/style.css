@@ -5,6 +5,10 @@ Couleur 3: #296ff0 (Bleu)
 Couleur 4: #fd7381 (Rouge)
  */
 
+ .header {
+   margin-top: -20px;
+ }
+
 /* BARRE DE RECHERCHE */
 .thebar {
   padding: 0;
@@ -71,6 +75,12 @@ Couleur 4: #fd7381 (Rouge)
 
 .resultDesc {
   font-size: 14px;
+}
+
+.resultDesc table {
+  margin-top: 1%;
+  margin-left: 5%;
+  width: 20%;
 }
 
 

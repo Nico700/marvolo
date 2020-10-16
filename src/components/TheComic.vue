@@ -1,6 +1,6 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
-  <div class="container-fluid single-result">
+  <div class="container-fluid single-result" v-if="comic">
     <div class="row">
       <div class="col-6">
         <table class="table">
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import FakeComic from "../../comic.json";
+//import FakeComic from "../../comic.json";
 const axios = require("axios");
 const md5 = require('md5');
 
@@ -70,8 +70,8 @@ export default {
       axios
         .get(this.url + "/comics/" + comicId + "?&apikey=" + this.apikey + "&hash=" + this.hash)
         .then(response => {
-          console.log(response)
-          this.comic = response.data
+          console.log(this.comic);
+          this.comic = response.data.data.results[0];
         })
         .catch((error) => {
           console.log(error);

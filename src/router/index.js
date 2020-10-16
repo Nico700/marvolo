@@ -20,11 +20,6 @@ const routes = [
     component: TheHero
   },
   {
-    path: "/comic",
-    name: "Comic",
-    component: Comic
-  },
-  {
     path: "/comics/:id",
     name: "Comic",
     component: Comic

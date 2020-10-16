@@ -4,7 +4,6 @@
       <TheHeader />
     </div>
 
-    <h1>Resultats</h1>
     <AppResult v-for="data in heros" :key="data.id" :data="data"> </AppResult>
 
   </div>
