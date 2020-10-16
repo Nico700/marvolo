@@ -5,10 +5,7 @@
     </div>
 
     <h1>Resultats</h1>
-    <!-- <AppResult v-for="data in datas" :key="data.id">
-      {{  }}
-    </AppResult> -->
-    <p>{{ datas }}</p>
+    <AppResult v-for="data in datas" :key="data.id"/>
   </div>
 </template>
 

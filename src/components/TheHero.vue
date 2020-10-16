@@ -14,7 +14,7 @@
             <div class="col-6">
                 <ul class="list-group">
                     <li class="list-group-item" v-for="(comic, index) in hero.comics.items" :key="index">
-                        {{ comic.name }}
+                        <router-link class="pt-2" :to="'/comics/' + truncComicId(comic.resourceURI) ">{{ comic.name }}</router-link>
                     </li>
                 </ul>
             </div>
@@ -35,6 +35,22 @@ export default {
     return {
       hero: FakeHero.data.results[0]
     };
+  },
+  methods: {
+    truncComicId: function(uri) {
+      let parts = uri.split("/");
+      let lastSegment = parts.pop() || parts.pop();
+      return lastSegment;
+    }
   }
 };
 </script>
+
+<style scoped>
+.list-group {
+  max-height: 500px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+</style>
