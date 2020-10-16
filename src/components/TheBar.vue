@@ -1,7 +1,8 @@
 <template>
   <div class="thebar">
-    <form action="/search" @submit="submit" method="post">
-      <input type="text" v-model="value" name="valeur_search" />
+    <form action="/search" @submit="submit" method="get">
+      <input type="text" name="q" />
+      <input type="hidden" name="type" value="characters"/>
       <button type="submit" class="ico_loupe">🔍</button>
     </form>
   </div>
@@ -9,22 +10,6 @@
 
 <script>
 export default {
-  name: "TheBar",
-  data: function() {
-    return {
-      value: null
-    }
-  },
-  methods:{
-    submit: function(e){
-      e.preventDefault()
-      this.$router.push({
-        name: 'Search',
-        params:{
-          search: this.value
-        }
-      })
-    }
-  }
+  name: "TheBar"
 };
 </script>

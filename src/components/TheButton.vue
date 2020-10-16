@@ -19,7 +19,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.btn {background-color: #008CBA;}
-</style>
