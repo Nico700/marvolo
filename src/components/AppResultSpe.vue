@@ -28,7 +28,7 @@ export default {
   methods: {
     hasDescription(desc){
       if (desc === "") {
-        desc = "Désolé, cette recherche ne possède aucune description.";
+        desc = "Sorry, this search has no description.";
       }
       return desc;
     }
