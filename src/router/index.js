@@ -4,6 +4,7 @@ import TheHero from '../components/TheHero.vue'
 import Comic from "../views/Comic.vue";
 import Search from "../views/Search.vue";
 import TheCharacterSeries from '../components/TheCharacterSeries.vue'
+import TheCharacterStories from '../components/TheCharacterStories.vue'
 
 const routes = [
   {
@@ -19,6 +20,12 @@ const routes = [
     path: "/characters/:id/series",
     name: "CharacterSeries",
     component: TheCharacterSeries,
+    props: true
+  },
+  {
+    path: "/characters/:id/stories",
+    name: "CharacterStories",
+    component: TheCharacterStories,
     props: true
   },
   {
