@@ -1,3 +1,4 @@
+<!--  eslint-disable prettier/prettier -->
 <template>
     <div class="container-fluid single-result">
         <div id="nav">
@@ -22,18 +23,18 @@
 </template>
 
 <script>
-import FakeHero from '../../data.json'
-import TheHeader from '../components/TheHeader'
+import FakeHero from "../../data.json";
+import TheHeader from "../components/TheHeader";
 
 export default {
-    name: 'TheHero',
-    components: {
-        TheHeader
-    },
-    data: function(){
-        return {
-            hero: FakeHero.data.results[0]
-        }
-    }
-}
+  name: "TheHero",
+  components: {
+    TheHeader
+  },
+  data: function() {
+    return {
+      hero: FakeHero.data.results[0]
+    };
+  }
+};
 </script>
