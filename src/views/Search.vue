@@ -5,10 +5,8 @@
     </div>
 
     <h1>Resultats</h1>
-    <!-- <AppResult v-for="data in datas" :key="data.id">
-      {{  }}
-    </AppResult> -->
-    <p>{{ datas }}</p>
+    <AppResult v-for="data in heros" :key="data.id" :data="data"> </AppResult>
+    <p>{{ heros }}</p>
   </div>
 </template>
 
@@ -23,7 +21,6 @@ export default {
   name: "Search",
   components: {
     TheHeader,
-    // eslint-disable-next-line vue/no-unused-components
     AppResult
   },
   props: {
@@ -31,7 +28,7 @@ export default {
   },
   data() {
     return {
-      datas: null,
+      heros: null,
       url: "https://gateway.marvel.com:443/v1/public",
       apikey: process.env.VUE_APP_APIKEY_PUBLIC,
       apikeyPrivate: process.env.VUE_APP_APIKEY_PRIVATE,
@@ -44,11 +41,10 @@ export default {
   },
   methods: {
     getHeroes: function() {
-      console.log(this.search)
       axios
         .get(this.url + "/characters?limit=100&orderBy=name&nameStartsWith=" + this.search + "&ts=1&apikey=" + this.apikey + "&hash=" + this.hash)
         .then(response => {
-          this.datas = response.data.data;
+          this.heros = response.data.data.results;
         })
         .catch((error) => {
           console.log(error);

@@ -1,15 +1,26 @@
 <template>
   <div class="result">
-    <p class="resultModel">Héro</p>
-    <a class="resultTitle" href="google.com">Spider-Man</a>
+    <p class="resultModel">Héros</p>
+    <a class="resultTitle" href="/heros/">{{ data.name }}</a>
     <p class="resultDesc">
-        Spider-Man est un héro super super génial ...
+      {{ hasDescription(data.description) }}
     </p>
   </div>
 </template>
 
 <script>
 export default {
-  name: "AppResult"
+  name: "AppResult",
+  props: {
+    data: Object
+  },
+  methods: {
+    hasDescription(desc){
+      if (desc === "") {
+        desc = "Désolé, cette recherche ne possède aucune description.";
+      }
+      return desc;
+    }
+  }
 };
 </script>
