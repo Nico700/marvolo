@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img src="../assets/marvolo.png">
+    <img src="../assets/marvolo.png" style="margin-top: 100px;">
     <TheBar class="thebarhome"/>
   </div>
 </template>

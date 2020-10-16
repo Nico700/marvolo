@@ -6,7 +6,7 @@
 
     <h1>Resultats</h1>
     <AppResult v-for="data in heros" :key="data.id" :data="data"> </AppResult>
-    <p>{{ heros }}</p>
+
   </div>
 </template>
 
