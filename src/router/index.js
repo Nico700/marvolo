@@ -15,9 +15,14 @@ const routes = [
     name: "Characters"
   },
   {
-    path: "/fakeHeroResult",
-    name: "Fake Result",
+    path: "/characters/:id",
+    name: "Character",
     component: TheHero
+  },
+  {
+    path: "/comics",
+    name: "Comics",
+    component: Comic
   },
   {
     path: "/comics/:id",

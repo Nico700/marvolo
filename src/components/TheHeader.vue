@@ -11,7 +11,6 @@
                 <TheBar/>
             </div>
             <div class="col-4 d-flex justify-content-around align-items-center">
-                <TheButton label="fakeHeroResult"/>
                 <TheButton label="characters"/>
                 <TheButton label="comics"/>
             </div>
