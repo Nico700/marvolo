@@ -4,17 +4,22 @@
       <TheHeader />
     </div>
 
-    <AppResult v-for="data in heros" :key="data.id" :data="data" :type="this.type"> </AppResult>
-
+    <AppResult
+      v-for="data in heros"
+      :key="data.id"
+      :data="data"
+      :type="this.type"
+    >
+    </AppResult>
   </div>
 </template>
 
 <script>
-import TheHeader from '../components/TheHeader.vue'
-import AppResult from '../components/AppResult.vue'
+import TheHeader from "../components/TheHeader.vue";
+import AppResult from "../components/AppResult.vue";
 
 const axios = require("axios");
-const md5 = require('md5');
+const md5 = require("md5");
 
 export default {
   name: "Search",
@@ -25,7 +30,7 @@ export default {
   data() {
     return {
       search: this.$route.query.q,
-      type: this.$route.query.type,
+      type: this.$route.query.q_type,
       heros: null,
       url: "https://gateway.marvel.com:443/v1/public",
       apikey: process.env.VUE_APP_APIKEY_PUBLIC,
@@ -34,7 +39,7 @@ export default {
         "1" +
           process.env.VUE_APP_APIKEY_PRIVATE +
           process.env.VUE_APP_APIKEY_PUBLIC
-      ),
+      )
     };
   },
   methods: {
@@ -43,7 +48,7 @@ export default {
         .get(
           this.url +
             "/" +
-            this.type +
+            this.getType(this.type) +
             "?limit=100&orderBy=name&nameStartsWith=" +
             encodeURIComponent(this.search) +
             "&ts=1&apikey=" +
@@ -54,9 +59,16 @@ export default {
         .then(response => {
           this.heros = response.data.data.results;
         })
-        .catch((error) => {
+        .catch(error => {
           console.log(error);
         });
+    },
+    getType(type) {
+      if (type === "comics") {
+        return "comics";
+      } else {
+        return "characters";
+      }
     }
   },
   mounted() {
