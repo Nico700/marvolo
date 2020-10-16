@@ -1,21 +1,18 @@
 <template>
   <div class="home">
-    <img src="../assets/marvolo.png">
+    <img src="../assets/marvolo.png" style="margin-top: 100px;">
     <TheBar class="thebarhome"/>
-    <AppResult />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import TheBar from "@/components/TheBar.vue";
-import AppResult from "@/components/AppResult.vue";
 
 export default {
   name: "Home",
   components: {
-    TheBar,
-    AppResult
+    TheBar
   }
 };
 </script>

@@ -1,3 +1,4 @@
+<!--  eslint-disable prettier/prettier -->
 <template>
     <div v-if="hero"  class="container-fluid single-result">
         <div id="nav">
@@ -67,13 +68,14 @@ export default {
         this.getHero();
     }
 }
+
 </script>
 
 <style scoped>
-.list-group{
-    max-height: 500px;
-    margin-bottom: 10px;
-    overflow:scroll;
-    -webkit-overflow-scrolling: touch;
+.list-group {
+  max-height: 500px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 </style>
