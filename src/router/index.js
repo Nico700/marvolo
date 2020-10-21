@@ -4,8 +4,9 @@ import TheHero from "../components/TheHero.vue";
 import TheEvent from "../components/TheEvent.vue";
 import Comic from "../components/TheComic.vue";
 import Search from "../views/Search.vue";
-import TheCharacterSeries from '../components/TheCharacterSeries.vue'
-import TheCharacterStories from '../components/TheCharacterStories.vue'
+import TheCharacterSeries from "../components/TheCharacterSeries.vue";
+import TheCharacterStories from "../components/TheCharacterStories.vue";
+import TheCharacterComics from "../components/TheCharacterComics.vue";
 
 const routes = [
   {
@@ -27,6 +28,12 @@ const routes = [
     path: "/characters/:id/stories",
     name: "CharacterStories",
     component: TheCharacterStories,
+    props: true
+  },
+  {
+    path: "/characters/:id/comics",
+    name: "CharacterComics",
+    component: TheCharacterComics,
     props: true
   },
   {
