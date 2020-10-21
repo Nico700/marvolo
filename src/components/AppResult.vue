@@ -8,12 +8,12 @@
 
       <table>
         <tr>
-          <td><a class="resultTitle" :href="'/stories/' + data.id">Stories</a></td>
-          <td><a class="resultTitle" :href="'/comics/' + data.id">Comics</a></td>
+          <td><a class="resultTitle" :href=" 'characters/' + data.id + '/stories'">Stories</a></td>
+          <td><a class="resultTitle" :href=" 'characters/' + data.id + '/comics'">Comics</a></td>
         </tr>
         <tr>
-          <td><a class="resultTitle" :href="'/series/' + data.id">Series</a></td>
-          <td><a class="resultTitle" :href="'/events/' + data.id">Events</a></td>
+          <td><a class="resultTitle" :href=" 'characters/' +  data.id + '/series'">Series</a></td>
+          <td><a class="resultTitle" :href=" 'characters/' +  data.id + '/events'">Events</a></td>
         </tr>
       </table>
     </p>
