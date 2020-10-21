@@ -6,6 +6,7 @@ import Comic from "../components/TheComic.vue";
 import Search from "../views/Search.vue";
 import TheCharacterSeries from '../components/TheCharacterSeries.vue'
 import TheCharacterStories from '../components/TheCharacterStories.vue'
+import TheCharacterEvents from '../components/TheCharacterEvents.vue'
 
 const routes = [
   {
@@ -27,6 +28,12 @@ const routes = [
     path: "/characters/:id/stories",
     name: "CharacterStories",
     component: TheCharacterStories,
+    props: true
+  },
+  {
+    path: "/characters/:id/events",
+    name: "CharacterEvents",
+    component: TheCharacterEvents,
     props: true
   },
   {
