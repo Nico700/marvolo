@@ -1,7 +1,7 @@
 <template>
   <div class="result">
-    <p class="resultModel">{{ this.type }}</p>
-    <a class="resultTitle" href="/heros/">{{ data.name }}</a>
+    <p class="resultModel">{{ type }}</p>
+    <a class="resultTitle" href="/heros/">{{ data.title }}</a>
     <p class="resultDesc">
       {{ hasDescription(data.description) }}
     </p>
@@ -10,14 +10,15 @@
 
 <script>
 export default {
-  name: "AppResult",
+  name: "AppResultSpe",
   props: {
     data: Object,
     type: String
   },
   methods: {
     hasDescription(desc){
-      if (desc === "") {
+      console.log(desc)
+      if (desc === "" || desc === null) {
         desc = "Sorry, this search has no description.";
       }
       return desc;

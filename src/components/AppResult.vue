@@ -1,8 +1,7 @@
 <template>
   <div class="result">
     <p class="resultModel">{{ type }}</p>
-    <!--<a class="resultTitle" :href="'/characters/' + data.id" >{{ data.name }}</a>-->
-    <router-link class="resultTitle" :to="{name: 'Character', params: {id:data.id }}">{{ data.name}}</router-link>
+    <router-link class="resultTitle" :to="{name: 'Character', params: {id:data.id }}">{{data.name}}</router-link>
     <p class="resultDesc">
       {{ hasDescription(data.description) }}
 
@@ -24,10 +23,12 @@
 export default {
   name: "AppResult",
   props: {
-    data: Object
+    data: Object,
+    type: String
   },
   methods: {
     hasDescription(desc){
+      console.log(this.type)
       if (desc === "") {
         desc = "Sorry, this search has no description.";
       }

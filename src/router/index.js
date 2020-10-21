@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import TheHero from '../components/TheHero.vue'
-import Comic from "../views/Comic.vue";
+import TheHero from "../components/TheHero.vue";
+import TheEvent from "../components/TheEvent.vue";
+import Comic from "../components/TheComic.vue";
 import Search from "../views/Search.vue";
 import TheCharacterSeries from '../components/TheCharacterSeries.vue'
 import TheCharacterStories from '../components/TheCharacterStories.vue'
@@ -35,15 +36,21 @@ const routes = [
     props: true
   },
   {
+    path: "/characters/:id/events",
+    name: "Events",
+    component: TheEvent,
+    props: true
+  },
+  {
     path: "/comics",
     name: "Comics",
     component: Comic
   },
-  {
-    path: "/comics/:id",
-    name: "Comic",
-    component: Comic
-  },
+  // {
+  //   path: "/comics/:id",
+  //   name: "Comic",
+  //   component: Comic
+  // },
   {
     path: "/search",
     name: "Search",
