@@ -1,6 +1,6 @@
 <template>
   <div class="button d-flex align-items-center">
-    <router-link class="pt-2" :to="'/' + label">{{
+    <router-link class="pt-2" :to="'/?q_type=' + label">{{
       capitalize(label)
     }}</router-link>
   </div>
@@ -21,3 +21,12 @@ export default {
   }
 };
 </script>
+<<<<<<< HEAD
+=======
+
+<style>
+.btn {
+  background-color: #008cba;
+}
+</style>
+>>>>>>> 2eee31e8037084129fabfacc6fc163450880c93d
