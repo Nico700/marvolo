@@ -21,12 +21,9 @@ export default {
   }
 };
 </script>
-<<<<<<< HEAD
-=======
 
 <style>
 .btn {
   background-color: #008cba;
 }
 </style>
->>>>>>> 2eee31e8037084129fabfacc6fc163450880c93d
