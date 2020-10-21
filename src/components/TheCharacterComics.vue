@@ -4,18 +4,18 @@
       <TheHeader />
     </div>
 
-    <div v-if="series" class="d-flex justify-content-around">
+    <div v-if="comics" class="d-flex justify-content-around">
       <div class="col-6">
         <ul class="list-group">
           <li
             class="list-group-item"
-            v-for="(serie, index) in series"
+            v-for="(comic, index) in comics"
             :key="index"
           >
-            <h3>{{ serie.title }}</h3>
+            <h3>{{ comic.title }}</h3>
             <img
-              :src="serie.thumbnail.path + '.' + serie.thumbnail.extension"
-              alt="Serie picture"
+              :src="comic.thumbnail.path + '.' + comic.thumbnail.extension"
+              alt="Comic picture"
               style="width:25%"
             />
           </li>
@@ -36,7 +36,7 @@ const axios = require("axios");
 const md5 = require("md5");
 
 export default {
-  name: "TheCharacterSeries",
+  name: "TheCharacterComics",
   components: {
     TheHeader,
     PacmanLoader
@@ -46,7 +46,7 @@ export default {
   },
   data: function() {
     return {
-      series: null,
+      comics: null,
       url: "https://gateway.marvel.com:443/v1/public",
       apikey: process.env.VUE_APP_APIKEY_PUBLIC,
       apikeyPrivate: process.env.VUE_APP_APIKEY_PRIVATE,
@@ -65,21 +65,21 @@ export default {
       let lastSegment = parts.pop() || parts.pop();
       return lastSegment;
     },
-    getHeroSeries() {
+    getComics() {
       let characterId = this.id;
       axios
         .get(
           this.url +
             "/characters/" +
             characterId +
-            "/series?apikey=" +
+            "/comics?apikey=" +
             this.apikey +
             "&hash=" +
             this.hash
         )
         .then(response => {
           console.log(response.data.data.results);
-          this.series = response.data.data.results;
+          this.comics = response.data.data.results;
         })
         .catch(error => {
           console.log(error.response);
@@ -87,7 +87,7 @@ export default {
     }
   },
   created() {
-    this.getHeroSeries();
+    this.getComics();
   }
 };
 </script>
