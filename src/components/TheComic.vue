@@ -1,11 +1,14 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
   <div class="container-fluid single-result" v-if="comic">
+    <div id="nav">
+      <TheHeader />
+    </div>
     <div class="row">
       <div class="col-6">
         <table class="table">
           <tr>
-            <td rowspan="5" style="width: 40%"><img :src="comic.thumbnail.path + '.' + comic.thumbnail.extension" alt="John" style="width:100%" /></td>
+            <td rowspan="5" style="width: 40%"><img :src="comic.thumbnail.path + '.' + comic.thumbnail.extension" style="width:100%" /></td>
           </tr>
           <tr>
             <td><b>Publication</b></td>
@@ -41,11 +44,19 @@
 </template>
 
 <script>
+
+import TheHeader from "../components/TheHeader";
 const axios = require("axios");
 const md5 = require('md5');
 
 export default {
   name: "TheComic",
+  components: {
+    TheHeader
+  },
+  props: {
+    id: String
+  },
   data: function() {
     return {
       //comic: FakeComic.data.results[0],
@@ -65,11 +76,11 @@ export default {
   },
   methods: {
     getComic: function() {
-      let comicId = this.$route.params.id
+      let comicId = this.id
       axios
         .get(this.url + "/comics/" + comicId + "?&apikey=" + this.apikey + "&hash=" + this.hash)
         .then(response => {
-          console.log(this.comic);
+          console.log(response.data.data.results[0])
           this.comic = response.data.data.results[0];
         })
         .catch((error) => {
@@ -83,7 +94,7 @@ export default {
       }
     },
 
-    mounted() {
+    created() {
       this.getComic();
     }
   }

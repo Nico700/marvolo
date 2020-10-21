@@ -1,12 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import TheHero from "../components/TheHero.vue";
-import TheEvent from "../components/TheEvent.vue";
-import Comic from "../components/TheComic.vue";
+import TheHero from '../components/TheHero.vue'
+import TheComic from '../components/TheComic.vue'
+import Comic from "../views/Comic.vue";
 import Search from "../views/Search.vue";
-import TheCharacterSeries from "../components/TheCharacterSeries.vue";
-import TheCharacterStories from "../components/TheCharacterStories.vue";
-import TheCharacterComics from "../components/TheCharacterComics.vue";
+import TheCharacterSeries from '../components/TheCharacterSeries.vue'
+import TheCharacterStories from '../components/TheCharacterStories.vue'
 
 const routes = [
   {
@@ -31,21 +30,9 @@ const routes = [
     props: true
   },
   {
-    path: "/characters/:id/comics",
-    name: "CharacterComics",
-    component: TheCharacterComics,
-    props: true
-  },
-  {
     path: "/characters/:id",
     name: "Character",
     component: TheHero,
-    props: true
-  },
-  {
-    path: "/characters/:id/events",
-    name: "Events",
-    component: TheEvent,
     props: true
   },
   {
@@ -53,11 +40,12 @@ const routes = [
     name: "Comics",
     component: Comic
   },
-  // {
-  //   path: "/comics/:id",
-  //   name: "Comic",
-  //   component: Comic
-  // },
+  {
+    path: "/comics/:id",
+    name: "Comic",
+    component: TheComic,
+    props: true
+  },
   {
     path: "/search",
     name: "Search",

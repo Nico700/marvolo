@@ -1,7 +1,7 @@
 <template>
   <div class="result">
     <p class="resultModel">{{ type }}</p>
-    <a class="resultTitle" href="/heros/">{{ data.title }}</a>
+    <a class="resultTitle" :href="'/comics/' + data.id">{{ data.title }}</a>
     <p class="resultDesc">
       {{ hasDescription(data.description) }}
     </p>
