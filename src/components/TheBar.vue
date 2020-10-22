@@ -1,6 +1,6 @@
 <template>
   <div class="thebar">
-    <form action="/search" @submit="submit" method="get">
+    <form action="/search" @submit="submit" method="get" autocomplete="off">
       <input type="text" name="q" />
       <input type="hidden" name="q_type" :value="type">
       <button type="submit" class="ico_loupe">🔍</button>
