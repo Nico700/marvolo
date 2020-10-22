@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import TheHero from '../components/TheHero.vue'
 import TheComic from '../components/TheComic.vue'
-import Comic from "../views/Comic.vue";
 import Search from "../views/Search.vue";
 import TheCharacterEvents from '../components/TheCharacterEvents.vue'
 import TheCharacterSeries from "../components/TheCharacterSeries.vue";
@@ -48,11 +47,6 @@ const routes = [
     name: "Character",
     component: TheHero,
     props: true
-  },
-  {
-    path: "/comics",
-    name: "Comics",
-    component: Comic
   },
   {
     path: "/comics/:id",

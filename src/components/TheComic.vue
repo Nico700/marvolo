@@ -1,10 +1,10 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
-  <div class="container-fluid single-result" v-if="comic">
+  <div class="container-fluid single-result">
     <div id="nav">
       <TheHeader />
     </div>
-    <div class="row">
+    <div class="row" v-if="comic">
       <div class="col-6">
         <table class="table">
           <tr>
@@ -54,13 +54,10 @@ export default {
     TheHeader
   },
   props: {
-    id: String
+    id: Number
   },
   data: function() {
     return {
-      //comic: FakeComic.data.results[0],
-      //writer: FakeComic.data.results[0].creators.items.role,
-
       comic: null,
       writer: null,
       url: "https://gateway.marvel.com:443/v1/public",
@@ -91,10 +88,9 @@ export default {
         return name;
       }
     },
-
-    mounted() {
-      this.getComic();
-    }
+  },
+  created() {
+    this.getComic();
   }
 };
 </script>

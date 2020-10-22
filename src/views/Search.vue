@@ -3,26 +3,30 @@
     <div id="nav">
       <TheHeader />
     </div>
+    <div v-if="results">
+      <div v-if="like == 'name'">
+        <AppResult
+          v-for="data in results"
+          :key="data.id"
+          :data="data"
+          :type="this.type"
+        >
+        </AppResult>
+      </div>
 
-    <div v-if="like == 'name'">
-      <AppResult
-        v-for="data in results"
-        :key="data.id"
-        :data="data"
-        :type="this.type"
-      >
-      </AppResult>
+      <div v-if="like == 'title'">
+        <AppResultSpe
+          v-for="data in results"
+          :key="data.id"
+          :data="data"
+          :type="this.type"
+        >
+        </AppResultSpe>
+        <p>{{ results }}</p>
+      </div>
     </div>
-
-    <div v-if="like == 'title'">
-      <AppResultSpe
-        v-for="data in results"
-        :key="data.id"
-        :data="data"
-        :type="this.type"
-      >
-      </AppResultSpe>
-      <p>{{ results }}</p>
+    <div v-else class="d-flex justify-content-center">
+      <pacman-loader :loading="loading" :color="color"></pacman-loader>
     </div>
   </div>
 </template>
@@ -31,6 +35,7 @@
 import TheHeader from "../components/TheHeader.vue";
 import AppResult from "../components/AppResult.vue";
 import AppResultSpe from "../components/AppResultSpe.vue";
+import PacmanLoader from "vue-spinner/src/PacmanLoader.vue";
 
 const axios = require("axios");
 const md5 = require("md5");
@@ -40,7 +45,8 @@ export default {
   components: {
     TheHeader,
     AppResult,
-    AppResultSpe
+    AppResultSpe,
+    PacmanLoader
   },
   data() {
     return {
@@ -56,7 +62,9 @@ export default {
         "1" +
           process.env.VUE_APP_APIKEY_PRIVATE +
           process.env.VUE_APP_APIKEY_PUBLIC
-      )
+      ),
+      size: '50px',
+      color: 'yellow'
     };
   },
   methods: {
