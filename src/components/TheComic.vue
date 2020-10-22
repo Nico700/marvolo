@@ -44,7 +44,6 @@
 </template>
 
 <script>
-
 import TheHeader from "../components/TheHeader";
 const axios = require("axios");
 const md5 = require('md5');
@@ -76,11 +75,10 @@ export default {
   },
   methods: {
     getComic: function() {
-      let comicId = this.id
+      let comicId = this.id;
       axios
         .get(this.url + "/comics/" + comicId + "?&apikey=" + this.apikey + "&hash=" + this.hash)
         .then(response => {
-          console.log(response.data.data.results[0])
           this.comic = response.data.data.results[0];
         })
         .catch((error) => {
@@ -94,7 +92,7 @@ export default {
       }
     },
 
-    created() {
+    mounted() {
       this.getComic();
     }
   }
