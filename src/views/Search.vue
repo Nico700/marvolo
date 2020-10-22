@@ -28,6 +28,9 @@
     <div v-else class="d-flex justify-content-center">
       <pacman-loader :loading="loading" :color="color"></pacman-loader>
     </div>
+    <div v-if="noRes">
+      <h4>Aucun résultat</h4>
+    </div>
   </div>
 </template>
 
@@ -55,6 +58,7 @@ export default {
       results: null,
       like: null,
       startWith: null,
+      noRes: false,
       url: "https://gateway.marvel.com:443/v1/public",
       apikey: process.env.VUE_APP_APIKEY_PUBLIC,
       apikeyPrivate: process.env.VUE_APP_APIKEY_PRIVATE,
@@ -84,6 +88,9 @@ export default {
         .then(response => {
           console.log(response)
           this.results = response.data.data.results;
+          if(this.results.length === 0){
+            this.noRes = true;
+          }
         })
         .catch(error => {
           console.log(error);

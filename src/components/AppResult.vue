@@ -7,12 +7,13 @@
 
       <table>
         <tr>
-          <td><a class="resultTitle" :href="'characters/' + data.id + '/stories'">Stories</a></td>
-          <td><a class="resultTitle" :href="'characters/' + data.id + '/comics/'">Comics</a></td>
+          <td><router-link class="resultTitle" :to="{name: 'CharacterStories', params: {id:data.id }}">Stories</router-link></td>
+          <td><router-link class="resultTitle" :to="{name: 'CharacterComics', params: {id:data.id }}">Comics</router-link></td>
         </tr>
         <tr>
-          <td><a class="resultTitle" :href="'characters/' + data.id + '/series/'">Series</a></td>
-          <td><a class="resultTitle" :href="'characters/' + data.id + '/events/'">Events</a></td>
+          <!--<td><a class="resultTitle" :href="'characters/' + data.id + '/series/'">Series</a></td>-->
+          <td><router-link class="resultTitle" :to="{name: 'CharacterSeries', params: {id:data.id }}">Séries</router-link></td>
+          <td><router-link class="resultTitle" :to="{name: 'CharacterEvents', params: {id:data.id }}">Events</router-link></td>
         </tr>
       </table>
     </p>
