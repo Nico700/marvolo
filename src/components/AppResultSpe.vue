@@ -1,7 +1,7 @@
 <template>
   <div class="result">
     <p class="resultModel">{{ type }}</p>
-    <a class="resultTitle" :href="'/comics/' + data.id">{{ data.title }}</a>
+    <router-link class="resultTitle" :to="{name: 'Comic', params: {id:data.id }}">{{ data.title }}</router-link>
     <p class="resultDesc">
       {{ hasDescription(data.description) }}
     </p>

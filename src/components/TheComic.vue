@@ -89,7 +89,6 @@ export default {
             this.hash
         )
         .then(response => {
-          console.log(response.data.data.results[0]);
           this.comic = response.data.data.results[0];
         })
         .catch(error => {
