@@ -35,7 +35,7 @@
       <div class="col-6">
         <ul class="list-group">
             <li class="list-group-item" v-for="(comic, index) in comic.characters.items" :key="index">
-              {{ comic.name }}
+              <router-link class="pt-2" :to="'/characters/' + truncCharactId(comic.resourceURI) ">{{ comic.name }}</router-link>
             </li>
         </ul>
       </div>
@@ -46,7 +46,7 @@
 <script>
 import TheHeader from "../components/TheHeader";
 const axios = require("axios");
-const md5 = require('md5');
+const md5 = require("md5");
 
 export default {
   name: "TheComic",
@@ -71,14 +71,27 @@ export default {
     };
   },
   methods: {
+    truncCharactId: function(uri) {
+      let parts = uri.split("/");
+      let lastSegment = parts.pop() || parts.pop();
+      return lastSegment;
+    },
     getComic: function() {
       let comicId = this.id;
       axios
-        .get(this.url + "/comics/" + comicId + "?&apikey=" + this.apikey + "&hash=" + this.hash)
+        .get(
+          this.url +
+            "/comics/" +
+            comicId +
+            "?&apikey=" +
+            this.apikey +
+            "&hash=" +
+            this.hash
+        )
         .then(response => {
           this.comic = response.data.data.results[0];
         })
-        .catch((error) => {
+        .catch(error => {
           console.log(error);
         });
     },
@@ -87,7 +100,7 @@ export default {
       if (role == "writer") {
         return name;
       }
-    },
+    }
   },
   created() {
     this.getComic();

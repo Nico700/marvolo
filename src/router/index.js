@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import TheHero from '../components/TheHero.vue'
-import TheComic from '../components/TheComic.vue'
+import TheHero from "../components/TheHero.vue";
+import TheComic from "../components/TheComic.vue";
 import Search from "../views/Search.vue";
-import TheCharacterEvents from '../components/TheCharacterEvents.vue'
+import TheCharacterEvents from "../components/TheCharacterEvents.vue";
 import TheCharacterSeries from "../components/TheCharacterSeries.vue";
 import TheCharacterStories from "../components/TheCharacterStories.vue";
 import TheCharacterComics from "../components/TheCharacterComics.vue";
