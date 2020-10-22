@@ -11,7 +11,7 @@
 <script>
 export default {
   name: "TheBar",
-  data(){
+  data() {
     return {
       type: "characters"
     };

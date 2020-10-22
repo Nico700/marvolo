@@ -101,18 +101,10 @@ export default {
       if (role == "writer") {
         return name;
       }
-<<<<<<< HEAD
     }
   },
   created() {
     this.getComic();
   }
-=======
-    },
-  },
-  created() {
-      this.getComic();
-    }
->>>>>>> 40497707951c386ff70276661883601ff67b84dd
 };
 </script>
