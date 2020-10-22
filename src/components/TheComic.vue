@@ -4,6 +4,7 @@
     <div id="nav">
       <TheHeader />
     </div>
+    
     <div class="row">
       <div class="col-6">
         <table class="table">
@@ -35,7 +36,7 @@
       <div class="col-6">
         <ul class="list-group">
             <li class="list-group-item" v-for="(comic, index) in comic.characters.items" :key="index">
-              {{ comic.name }}
+              <router-link class="pt-2" :to="'/characters/' + truncCharactId(comic.resourceURI) ">{{ comic.name }}</router-link>
             </li>
         </ul>
       </div>
@@ -44,10 +45,9 @@
 </template>
 
 <script>
-
 import TheHeader from "../components/TheHeader";
 const axios = require("axios");
-const md5 = require('md5');
+const md5 = require("md5");
 
 export default {
   name: "TheComic",
@@ -55,7 +55,7 @@ export default {
     TheHeader
   },
   props: {
-    id: String
+    id: Number
   },
   data: function() {
     return {
@@ -75,15 +75,28 @@ export default {
     };
   },
   methods: {
+    truncCharactId: function(uri) {
+      let parts = uri.split("/");
+      let lastSegment = parts.pop() || parts.pop();
+      return lastSegment;
+    },
     getComic: function() {
-      let comicId = this.id
+      let comicId = this.id;
       axios
-        .get(this.url + "/comics/" + comicId + "?&apikey=" + this.apikey + "&hash=" + this.hash)
+        .get(
+          this.url +
+            "/comics/" +
+            comicId +
+            "?&apikey=" +
+            this.apikey +
+            "&hash=" +
+            this.hash
+        )
         .then(response => {
-          console.log(response.data.data.results[0])
+          console.log(response.data.data.results[0]);
           this.comic = response.data.data.results[0];
         })
-        .catch((error) => {
+        .catch(error => {
           console.log(error);
         });
     },
@@ -92,11 +105,10 @@ export default {
       if (role == "writer") {
         return name;
       }
-    },
-
-    created() {
-      this.getComic();
     }
+  },
+  created() {
+    this.getComic();
   }
 };
 </script>
