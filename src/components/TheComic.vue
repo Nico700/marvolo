@@ -1,11 +1,10 @@
 <!-- eslint-disable prettier/prettier -->
 <template>
-  <div class="container-fluid single-result" v-if="comic">
+  <div class="container-fluid single-result">
     <div id="nav">
       <TheHeader />
     </div>
-    
-    <div class="row">
+    <div class="row" v-if="comic">
       <div class="col-6">
         <table class="table">
           <tr>
@@ -59,9 +58,6 @@ export default {
   },
   data: function() {
     return {
-      //comic: FakeComic.data.results[0],
-      //writer: FakeComic.data.results[0].creators.items.role,
-
       comic: null,
       writer: null,
       url: "https://gateway.marvel.com:443/v1/public",
@@ -105,10 +101,18 @@ export default {
       if (role == "writer") {
         return name;
       }
+<<<<<<< HEAD
     }
   },
   created() {
     this.getComic();
   }
+=======
+    },
+  },
+  created() {
+      this.getComic();
+    }
+>>>>>>> 40497707951c386ff70276661883601ff67b84dd
 };
 </script>
