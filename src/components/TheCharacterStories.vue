@@ -6,11 +6,12 @@
 
         <div v-if="stories" class="d-flex justify-content-around">
             <div class="col-6">
-                <ul class="list-group">
+                <ul v-if="stories.length > 0" class="list-group">
                     <li class="list-group-item" v-for="(storie, index) in stories" :key="index">
                         <h3>{{ storie.title }}</h3>
                     </li>
                 </ul>
+                <h4 v-else class="my-5">No stories found.</h4>
             </div>
         </div>
         <div v-else class="d-flex justify-content-center">

@@ -6,12 +6,13 @@
 
         <div v-if="events" class="d-flex justify-content-around">
             <div class="col-6">
-                <ul class="list-group">
+                <ul v-if="events.length > 0" class="list-group">
                     <li class="list-group-item" v-for="(event, index) in events" :key="index">
                         <h3>{{ event.title }}</h3>
                         <img :src="event.thumbnail.path + '.' + event.thumbnail.extension" alt="Serie picture" style="width:25%">
                     </li>
                 </ul>
+                <h4 v-else class="my-5">No events found.</h4>
             </div>
         </div>
         <div v-else class="d-flex justify-content-center">
